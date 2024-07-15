@@ -131,6 +131,60 @@ header style */
   margin-bottom: 32px;
 }
 
+/* features area styles */
+
+.features {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 100px;
+}
+.text-features {
+}
+.text-features-tittle {
+  font-size: 2.8rem;
+  font-weight: 700;
+  border-left: 5px solid rgb(255, 144, 14);
+  padding-left: 20px;
+}
+.text-features-description {
+  color: rgb(114, 114, 114);
+}
+
+.feature-card {
+  padding: 30px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.card-tittle {
+  color: rgb(19, 19, 19);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.img-features img {
+  width: 100%;
+}
+.btn-exp {
+  padding: 45px 42px;
+  background-color: rgb(255, 144, 14);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+#years {
+  font-size: 4rem;
+  font-weight: 700;
+}
+#exp {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 576px) {
   .navbar {
     flex-direction: column;
@@ -146,6 +200,13 @@ header style */
 
   .feature-content {
     margin-top: 40px;
+    margin-left: 20px;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .btn-exp {
+    margin-top: 20px;
     margin-left: 20px;
   }
 }
